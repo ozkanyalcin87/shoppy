@@ -38,12 +38,12 @@ public class Shoppy {
         System.out.println("Sepet: "+ this.getCart().getTotalAmount());
 
         System.out.println("--------------------------------------CART");
-        System.out.println("--------------------------------------CART");
     }
 
     public void urunListeleme(){
         for(Product p : this.productList){
             System.out.println("Urun adi : "+ p.getName() + " fiyat : "+ p.getPrice());
+            System.out.println("--------------------------------------PLP");
         }
     }
 
